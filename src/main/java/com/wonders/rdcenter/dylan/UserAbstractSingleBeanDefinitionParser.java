@@ -22,7 +22,7 @@ public class UserAbstractSingleBeanDefinitionParser extends AbstractSingleBeanDe
         if (StringUtils.hasText(username)) {
             bean.addPropertyValue("username",username);
         }
-        if (StringUtils.hasText(username)) {
+        if (StringUtils.hasText(password)) {
             bean.addPropertyValue("password",password);
         }
     }
