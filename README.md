@@ -1,0 +1,3 @@
+# SpringCustomSchema
+Spring自定义schema
+在Sping中，一般使用<bean>这样的元素来配置一个bean，Spring在创建容器的时候会扫描这些配置，根据配置创建对象存放于容器中，然后我们再从容器中取出，或者在配置其他bean的时候作为属性注入。使用bean配置的一个限制是我们必须遵循配置文件的XML Schema定义，这在大多数情况下不会出现问题。但是在一些情况下，我们希望实现更为灵活的bean配置。Spring为此提供了 Custom tag Support，也称为Extensible XML Authoring。通过这个拓展点，我们可以灵活定制自己需要的配置格式。
